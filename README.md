@@ -8,6 +8,8 @@ This is a quarantine of some extremely bright PNG files. They render brightest o
 
 ⚠️  Do not dazzle your coworkers ⚠️
 
+<img src="superbright.png">
+
 <img src="bufo.png">
 
 <img src="partyparrot-hdr-1.png">
@@ -31,8 +33,6 @@ This is a quarantine of some extremely bright PNG files. They render brightest o
 <img src="partyparrot-hdr-9.png">
 
 <img src="partyparrot-hdr.png">
-
-<img src="superbright.png">
 
 
 
