@@ -8,31 +8,61 @@ This is a quarantine of some extremely bright PNG files. They render brightest o
 
 ⚠️  Do not dazzle your coworkers ⚠️
 
-<img src="superbright.png">
 
-<img src="bufo.png">
+# Turning HDR images off
 
-<img src="partyparrot-hdr-1.png">
+## Slack
 
-<img src="partyparrot-hdr-10.png">
+If you know how to use the Terminal, run this to restart Slack without any HDR emojis:
 
-<img src="partyparrot-hdr-2.png">
+```
+killall Slack ; open /Applications/Slack.app/ --args --force-color-profile=srgb
+```
 
-<img src="partyparrot-hdr-3.png">
+(HDR emojis will return the next time you relaunch Slack.)
 
-<img src="partyparrot-hdr-4.png">
+## Chrome
 
-<img src="partyparrot-hdr-5.png">
+It's the same as above, though I needed to delay relaunching for some reason.
 
-<img src="partyparrot-hdr-6.png">
+```
+killall 'Google Chrome' ; sleep 3 ; open /Applications/Google\ Chrome.app/ --args --force-color-profile=srgb
+```
 
-<img src="partyparrot-hdr-7.png">
+HDR emojis will return the next time you relaunch Chrome. To permanently turn off HDR images in Chrome, paste this address in your browser's address bar:
 
-<img src="partyparrot-hdr-8.png">
+```
+chrome://flags/#force-color-profile
+```
 
-<img src="partyparrot-hdr-9.png">
+Set the **Force color profile** setting to **sRGB**.
 
-<img src="partyparrot-hdr.png">
+# Quarantine
+
+<img width="128" height="128" src="superbright.png">
+<img width="128" height="128" src="bufo.png">
+<img width="128" height="128" src="bufo-superbright.png">
+<img width="128" height="128" src="heart.png">
+<img width="128" height="128" src="slug.png">
+<img width="128" height="128" src="fsjal.png">
+<img width="128" height="128" src="lol.png">
+<img width="128" height="128" src="myeyes.png">
+<img width="128" height="128" src="paraglider.png">
+<img width="128" height="128" src="eyes.png">
+<img width="128" height="128" src="fire.png">
+<img width="128" height="128" src="he-is-bright.png">
+
+<img width="128" height="128" src="partyparrot-hdr-1.png">
+<img width="128" height="128" src="partyparrot-hdr-10.png">
+<img width="128" height="128" src="partyparrot-hdr-2.png">
+<img width="128" height="128" src="partyparrot-hdr-3.png">
+<img width="128" height="128" src="partyparrot-hdr-4.png">
+<img width="128" height="128" src="partyparrot-hdr-5.png">
+<img width="128" height="128" src="partyparrot-hdr-6.png">
+<img width="128" height="128" src="partyparrot-hdr-7.png">
+<img width="128" height="128" src="partyparrot-hdr-8.png">
+<img width="128" height="128" src="partyparrot-hdr-9.png">
+<img width="128" height="128" src="partyparrot-hdr.png">
 
 
 
